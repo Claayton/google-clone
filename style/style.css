@@ -82,7 +82,7 @@ main .logo img {
 
 main .search {
     margin: -10px;
-    width:45%;
+    width: 580px;
     height: 45px;
     border: 1px solid rgba(0, 0, 0, 0.096);
     border-radius: 20px;
@@ -205,4 +205,24 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 1200px) {
+
+    footer .nav-container {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    footer .nav-container {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 90px;
+    }
+
+    main .search {
+        width: 80%;
+    }
 }
