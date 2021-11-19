@@ -226,3 +226,24 @@ footer a:hover {
         width: 80%;
     }
 }
+
+@media screen and (max-width: 600px) {
+
+    main .uteis {
+        display: none;
+    }
+
+    footer .brasil {
+        height: 20px;
+        font-size: 0.5rem;
+    }
+
+    footer .nav-container {
+        height: 40px;
+    }
+
+    footer .nav-container .nav-1 ul li a,
+    footer .nav-container .nav-2 ul li a {
+        font-size: 0.5rem;
+    }
+}
